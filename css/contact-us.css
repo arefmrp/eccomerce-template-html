@@ -1,0 +1,96 @@
+.contactUs-section{
+    width: 100%;
+    padding: 40px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contactUs-section-row1{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+
+}
+
+.contactUs-section-titles{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+
+    padding: 10px 20px;
+}
+.contactUs-section-titles h4{
+    align-content: end;
+    color: #4a4a4a;
+    font-size: 20px;
+    font-family: iransans-medium;
+}
+.contactUs-section-titles span{
+
+    background-color: #3a8bcd;
+    width: 40px;
+    height: 5px;
+    align-content: start;
+    margin-bottom: 20px;
+}
+.contactUs-section-row2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+    padding: 20px 0;
+    height: auto;
+    margin: 0 auto;
+
+}
+.contactUs-section-row2-map{
+    height: 500px;
+    width: 50%;
+}
+.contactUs-section-row2-form{
+    height: 500px auto;
+    width: 50%;
+}
+.contactUs-section-row2-form form{
+   display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.input-text-cs{
+    width: 85%;
+    display: block;
+    padding: 20px 12px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    outline: none;
+    border-radius: 5px;
+}
+.input-textarea-cs{
+    width: 85%;
+    height: 300px;
+    display: block;
+    padding: 20px 12px;
+    margin: 10px 0;
+    border: none;
+    background-color: rgba(0,0,0,0.01);
+    outline: none;
+    border-radius: 5px;
+}
+input::placeholder,textarea::placeholder{
+    font-family: iransans-ultralight;
+    font-size: 16px;
+}
+.input-button-cs{
+    width: 200px;
+    padding: 10px 0;
+    background-color: #3a8bcd;
+    color: #fff;
+    font-family: iransans-medium;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
